@@ -1,0 +1,12 @@
+{{#with user}}
+    <h1>dashboard</h1>
+    <p>O nome do usuário é {{name}} {{lastname}}, e ele tem {{age}} anos.</p>
+    <p>Jogador Beta: {{isBeta}}</p>
+    <h3>Permissões do Usuário:</h3>
+    <ul>
+    {{#each permissoes}}
+        <li>{{this}}</li>
+    {{/each}}
+    </ul>
+{{/with}}
+<a href="/">Voltar</a>
