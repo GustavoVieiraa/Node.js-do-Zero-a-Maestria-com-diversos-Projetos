@@ -1,0 +1,11 @@
+<h1>dashboard</h1>
+<p>O nome do usuário é {{user.name}} {{user.lastname}}, e ele tem {{user.age}} anos.</p>
+
+<h3>Permissões do Usuário:</h3>
+<ul>
+    {{#each permissoes}}
+        <li>{{this}}</li>
+    {{/each}}
+</ul>
+
+<a href="/">Voltar</a>
