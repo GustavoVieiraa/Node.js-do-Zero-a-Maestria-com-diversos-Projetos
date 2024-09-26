@@ -1,0 +1,18 @@
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "author": "Gustavo Vieira",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.7"
+  }
+}
