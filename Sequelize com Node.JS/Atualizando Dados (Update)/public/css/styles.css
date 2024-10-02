@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#navbar {
+    border-bottom: 1px solid #CCC;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li {
+    margin-left: 1em;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.form {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+
+.form-checkbox {
+    flex-direction: row;
+}
+
+.form-checkbox input {
+    margin-right: 10px;
+}
+
+.form-control input {
+    padding: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* USERS */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.container .item {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1 1 29%;
+    max-width: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item h2,
+.item p {
+    margin-bottom: .8em;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions a,
+.actions input {
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.actions .details-btn {
+    border-color: #004085;
+    color: #004085;
+    margin-right: 10px;
+}
+
+.actions .delete-btn {
+    border-color: #721C24;
+    color: #721C24;
+}
