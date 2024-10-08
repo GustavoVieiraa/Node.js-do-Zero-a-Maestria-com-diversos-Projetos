@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    border-bottom: 1px solid #CCC;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    background-color: #db4c3f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li {
+    margin-left: 1em;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.form {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 450px;
+    margin: 2em auto;
+}
+
+.container form {
+    margin-top: 1.5em;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+
+.form-checkbox {
+    flex-direction: row;
+}
+
+
+.form-control input,
+.form-control textarea {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+form input[type="submit"] {
+    background-color: #db4c3f;
+    color: #FFF;
+    padding: .7em 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style: none;
+    margin-top: 1em;
+}
+
+.task-list li {
+    padding: .5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.task-list .title {
+    font-weight: bold;
+    color: #db4c3f;
+    transition: .5s;
+    font-size: 1.2em;
+    text-decoration: none;
+    
+}
+
+.task-list .title:hover {
+    color: #333;
+}
+
+.actions {
+    display: flex;
+}
+
+.actions i {
+    font-size: 1.2em;
+    margin-right: .6em;
+    color: #333;
+}
+
+.actions i:hover {
+    color: #db4c3f;
+}
+
+.actions form {
+    margin: 0;
+}
+
+.actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.title.done {
+    text-decoration: line-through;
+    color: #CCC;
+}
